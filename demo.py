@@ -49,6 +49,8 @@ threshold = args.nms_thresh
 iou_threshold = args.iou_thresh
 use_cuda = args.cuda
 use_float16 = args.float16
+if not use_cuda:
+    use_float16 = False
 
 params = Params(f"hnet/projects/{args.project}.yml")
 anchors_ratios = params.anchors_ratios
