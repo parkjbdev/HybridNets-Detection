@@ -1,5 +1,10 @@
 ## Welcome to HybridNets-Detection
 
+### Clone Project
+```
+git clone --recursive https://github.com/username/repo.git
+```
+
 ### Configure Conda Environment
 ```bash
 conda env create -n hybridnet --file environment.yaml
