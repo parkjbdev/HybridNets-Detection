@@ -1,0 +1,3 @@
+[submodule "hnet"]
+	path = hnet
+	url = https://github.com/datvuthanh/HybridNets.git
